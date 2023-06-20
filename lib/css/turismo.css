@@ -20,7 +20,7 @@ a:hover{
     height: 100px;
     display: flex;
     background-color: white;
-    z-index: 1;
+    z-index: 3;
 }
 
 .headerImage{
@@ -98,56 +98,92 @@ a:hover{
     display: block;
 }
 .body{
+    overflow: hidden;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
-.infoCard{
-    background-color: lightgray;
+.bodyImage{
     width: 100%;
-    height: 50px;
+    height: 1000px;
+    z-index: 2;
 }
 
-/*nicole*/
-
 .slide {
+    margin-top: 50px;
     height: 500px;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 50px;
+    overflow-x:auto;
+    scroll-behavior: smooth;
   }
-  
-  .cards {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+
+.slide::-webkit-scrollbar {
+    display: none;
+}
+
+.firstCard {
+    margin-left: 150px;
+}
+.firstCard,
+.cards {
+    flex: 0 0 auto;
+    width: 350px;
     height: 350px;
     border-radius: 24px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
-  }
+}
 
-  .imagem1,
-  .imagem2,
-  .imagem3 {
-    width: 300px;
+.imagem {
+    position: relative;
+    width: 350px;
     height: 200px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    margin: 0;
-  }
-  
-  .info h4 {
+    overflow: hidden;
+}
+
+.info h4 {
     font-size: 16px;
     color: #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-  }
-  .info p {
-    margin-left: 10px;
-    margin-right: 10px;
+}
+.info p {
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 16px;
     color: #302b2b;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-  }
+}
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 50%;
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 1;
+}
+.pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+}
+.nxt-btn {
+    right: 0;
+}
+.pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
