@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/css/style.css">
     <title>Piraquara Agradável</title>
-    <link rel="stylesheet" href="./lib/style.css">
-    <script src ="./lib/script.js"></script>
 </head>
 
-<body>
+<body id="home">
     <div class ="header">
         <img class="headerImage" src="./lib/images/examplelogo.png" alt="">
         <div class="headerLinks">
-            <a href="">Home</a>
-            <a href="">Turismo</a>
-            <a href="">Hospedagem</a>
+            <a href="#home" target="_self">Home</a>
+            <a href="./lib/html/turismo.html">Turismo</a>
+            <a href="./lib/html/hospedagem.html">Hospedagem</a>
             <div class="dropdown">
                 <button class="dropbtn">Gastronomia</button>
                 <div class="dropdown-content">
-                    <a href="#">Bares</a>
-                    <a href="#">Restaurantes</a>
+                    <a href="./lib/html/bares.html">Bares</a>
+                    <a href="./lib/html/restaurantes.html">Restaurantes</a>
                 </div>
             </div>
         </div>
@@ -28,6 +27,8 @@
         </div>
     </div>
     <div class="body">
+        <div class="infoCard"></div>
+        <img class="bodyImage" src="./lib/images/piraquara.jpeg">
     </div>
 </body>
 </html>
