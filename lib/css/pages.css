@@ -278,7 +278,13 @@ a:hover{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
+#logo{
+    position: fixed;
+    top: 4%;
+    left: 13%;
+    font-size: 20px;
+    color: black;
+}
 
 
 
