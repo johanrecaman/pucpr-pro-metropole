@@ -143,7 +143,11 @@ a:hover{
 .firstCard {
     margin-left: 150px;
 }
+.lastCard {
+    margin-right: 150px;
+}
 .firstCard,
+.lastCard,
 .cards {
     flex: 0 0 auto;
     width: 350px;
