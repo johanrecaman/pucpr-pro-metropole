@@ -51,6 +51,7 @@ a:hover{
 }
 
 #headerButton{
+    cursor: pointer;
     height: 50px;
     width: 150px;
     position: absolute;
