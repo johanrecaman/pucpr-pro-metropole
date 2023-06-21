@@ -108,6 +108,11 @@ a:hover{
     height: 1000px;
     z-index: 2;
 }
+.infoCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .slide {
     margin-top: 50px;
@@ -164,7 +169,7 @@ a:hover{
     width: 10vw;
     height: 50%;
     position: absolute;
-    top: 110%;
+    top: 119%;
     display: flex;
     justify-content: center;
     align-items: center;
