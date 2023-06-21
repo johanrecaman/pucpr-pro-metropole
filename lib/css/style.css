@@ -37,7 +37,7 @@ a{
     color: black    ;
 }
 a:hover{
-    color: #ff0084;
+    color: #4674ca;
 }
 .header{
     position: fixed;
@@ -70,11 +70,11 @@ a:hover{
     position: absolute;
     right: 10%;
     background-color: transparent;
-    border: 2px solid #d11174;
+    border: 2px solid #4674ca;
     color: black;
 }
 #headerButton:hover{
-    background-color: #d11174;
+    background-color: #4674ca;
     color: white;
 }
 .headerLinks{
@@ -100,7 +100,7 @@ a:hover{
     color: black;
 }
 .dropbtn:hover{
-    color: #d11174;
+    color: #4674ca;
 }
 
 .dropdown-content {
@@ -115,10 +115,10 @@ a:hover{
     color: white;
     padding: 12px 16px;
     display: block;
-    background-color: #d11174;
+    background-color:#4674ca;
 }
 .dropdown-content a:hover{
-    background-color: #a22365;
+    background-color: #4674ca;
 }
 
 .dropdown:hover .dropdown-content {
@@ -245,7 +245,7 @@ a:hover{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color:#4674ca;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
