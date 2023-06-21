@@ -15,7 +15,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 span{
-    color: #d11174;
+    color: #4674ca;
 }
 h1{
     font-size: 70px;
@@ -118,7 +118,7 @@ a:hover{
     background-color:#4674ca;
 }
 .dropdown-content a:hover{
-    background-color: #4674ca;
+    background-color: #31518d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -139,20 +139,14 @@ a:hover{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.bodyBtn{
-    position: absolute;
-    height: 75px;
-    width: 75px;
-    left: 40%;
-    top: 8%;
-    border-radius: 24px;
-    font-size: 50px;
-    color: white;
-    background-color: rgb(209, 17, 116);
-    border: none;
-}
-.bodyBtn:hover{
-    background-color: #a22365;
+.headBody p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    height: 100px;
+    width: 600px;
+    box-shadow: 0px 10px 20px rgba(70, 116, 202, 0.4);
 }
 .bodyImage{
     position: relative;
@@ -169,7 +163,7 @@ a:hover{
     height: 100%;
     object-fit: cover;
     border-radius: 24px;
-    box-shadow: 0px 0px 20px 0px rgba(209,17,116,0.4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 .midBody{
     margin-top: 150px;
@@ -199,8 +193,9 @@ a:hover{
 .cardImg{
     height: 150px;
     width: 150px;
+    border-radius: 24px;
     object-fit: cover;
-    box-shadow: 0px 0px 20px 0px rgba(209,17,116,0.4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 .bottomBody{
     margin-top: 250px;
@@ -214,7 +209,7 @@ a:hover{
 }
 #bottomImg{
     border-radius: 24px;
-    box-shadow: 0px 0px 20px 0px rgba(209,17,116,0.4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 }
 .container{
 	max-width: 1170px;
@@ -245,7 +240,7 @@ a:hover{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color:#4674ca;
+	background-color:rgb(70, 116, 202);
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -283,5 +278,11 @@ a:hover{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
+#logo{
+    position: fixed;
+    top: 4%;
+    left: 13%;
+    font-size: 20px;
+    color: black;
+}
 

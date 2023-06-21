@@ -17,6 +17,7 @@ body{
 ul{
 	list-style: none;
 }
+
 a{
     text-decoration: none;
     color: black    ;
@@ -103,7 +104,7 @@ a:hover{
     background-color: #4674ca;
 }
 .dropdown-content a:hover{
-    background-color: #0dbd97;
+    background-color: #31518d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -186,7 +187,7 @@ a:hover{
     width: 10vw;
     height: 50%;
     position: absolute;
-    top: 119%;
+    top: 125%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,7 +279,13 @@ a:hover{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
+#logo{
+    position: fixed;
+    top: 4%;
+    left: 13%;
+    font-size: 20px;
+    color: black;
+}
 
 
 
